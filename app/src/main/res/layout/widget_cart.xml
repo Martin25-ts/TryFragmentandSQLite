@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_cart"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TODO : 1"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginBottom="10dp" />
+
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title : "
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/tvdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textStyle="italic"
+        android:text="sdajdl jasld jaksjd lajsdla jdkla jslkdja lsjdkla jsdkl ajsld jalsjd klasjd klajsdlk ajsdkl ajlskdj aklsjdl kasjdkl ajskld ajslkdj aklsdj la"/>
+
+
+</LinearLayout>
